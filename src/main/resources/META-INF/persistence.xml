@@ -8,9 +8,9 @@
     <class>br.com.senac.entidade.Profissao</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/banco_brasil?useTimezone=true&amp;serverTimezone=America/Sao_Paulo&amp;zeroDateTimeBehavior=convertToNull"/>
-      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.user" value="hibernate"/>
       <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
-      <property name="javax.persistence.jdbc.password" value="Pipoca15,"/>
+      <property name="javax.persistence.jdbc.password" value="banco123"/>
       <property name="hibernate.cache.provider_class" value="org.hibernate.cache.NoCacheProvider"/>
       <property name="hibernate.hbm2ddl.auto" value="update"/>
     </properties>
